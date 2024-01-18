@@ -27,6 +27,8 @@
     cursor: pointer;
     margin-top: 0%;
     margin-left: -2%;
+    border: 2px solid blue;
+    border-radius: 40px;
 }
 
 ul{
