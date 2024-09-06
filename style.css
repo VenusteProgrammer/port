@@ -8,6 +8,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+@media (min-width: 768px) {
+          .md\:grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+        }
 
 body {
     color: #ededed;
